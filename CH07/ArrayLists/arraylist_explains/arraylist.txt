@@ -1,0 +1,55 @@
+collection Framework Class
+
+내부에서 array로 동작.
+
+The Methods of ArrayList<E>
+
+ArrayList() : constructor of an empty list
+the type of list is Object
+
+int size()
+returns the number of elements in the list
+
+boolean add(E obj){
+    appends to the end of the list. 
+    why boolean?
+    collection interface의 add : 
+    Ensures that this collection contains the specified element 
+    (optional operation). Returns true if this collection changed as a result of the call. 
+    (Returns false if this collection does not permit duplicates and already contains 
+    the specified element.)
+    arraylist에서는 항상 true를 return 한다고 함.
+    //인덱스 없이 추가하는 놈. push 랑 비슷함.
+}
+
+void add(int index, E element){
+    inserts element at specified index. elements from position index and higher have 1
+    added to their indices. size of list is incremented by 1
+    // 인덱스 참고하면서 추가하는 놈. 기존에 있던 애들 + 뒤에 있는 애들 모두 한 칸씩 뒤로 밀려남
+}
+
+E get(int index){
+    returns the elment at the specified index in the list
+    // 인덱스 참조해서 반환
+}
+
+E set(int index, E element){
+    replaces item at specified index in the list with specified eldement.
+    Returns the element that was previously at index.
+    If the specified element is not of type E, throws a run-time exception
+    // 원래 있던 놈을 return 하면서 새로운 element를 대입함.
+    // element가 E에 속하지 않으면 runtime error을 throw함.
+}
+
+E remove(int index){
+    Removes and returns the element at the specified index. 
+    Elements to the right of position index have 1 subtracted from their indices.
+    size of list is decreased by 1
+    // 원래 있던 놈을 뺀다.
+    // pop같음. 근데 다른 점은 특정 인덱스 애를 pop한다는 점.
+    // 그 뒤에 있던 애들은 모두 한 칸 앞으로 당겨지고, 사이즈도 줄어듦
+}
+
+get, remove, set에 해당하는 index의 범위 : 
+기존에 있던 애들까지
+add의 index의 범위 : 기존에 있던 곳들 + 맨 끝 (size()값도 포함.)

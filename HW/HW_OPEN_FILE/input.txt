@@ -1,0 +1,15 @@
+12
+2
+1
+JungSeongWoo 18 170.2 100 95 100
+KimChaeWoon 18 172 95 0 96
+LeeSiJun 18 175 90 95 96
+KangHanByeol 18 180 90 95 100
+SeoHyeonUk 18 175 94 96 100
+SimSeongHa 18 182 85 95 100
+LeeDaeYeon 18 163 76 84 95
+KimHyeonSeo 18 159 79 98 95
+ByeonYoonYi 18 165 97 92 93
+KimSeoYeon 18 163 90 94 93
+ParkJooYeon 18 160 85 87 95
+BaeJinHyeong 18 176 97 97 95 

@@ -1,0 +1,16 @@
+arraylist : can not contain a primitive type like double or int
+it must only contain objects.
+
+it actually contains the references to those objects
+
+numbers : must be boxed
+
+int -> intvalue로 boxed
+double -> doublevalue로 boxed
+
+auto-unboxing : automatic conversion of a wrapper Class
+intValue할 필요 없음
+
+boxing과 unboxing : 적혀있지 않아도 자동으로 해준다.
+arraylist -> decrease time efficieny
+:: 잘 판단해서 사용해라

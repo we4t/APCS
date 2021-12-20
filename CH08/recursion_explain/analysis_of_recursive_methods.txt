@@ -1,0 +1,20 @@
+피보나치 수열 : 대표적인 recursion
+
+피보나치를 계산하는데 젱리 빠른 것은 그냥 계산하는거
+
+점화식 : recursive form
+
+general rules for recursion
+1. avoid recursion for algorithms that involve large local arrays
+    too many recursive calls can cause memory overflow
+    //재귀하면서 array를 건들이거나 새로 만들면 메모리 낭비가 심해짐. example 1 참고
+2. use recursion when it significantly simplifies code
+    // 간단하게 줄이는 것만 재귀로 표현. 간단하게 못 줄이는 거는 for 루프로 돌리는 것 보다 못함.
+    // 재귀로 표현해서 간단히 표현할 수 있을 때 사용
+3. avoid recursion for simple iterative methods like factorial, fibonacci, and linear search
+    // 팩토리얼, 피보나치, 이분 탐색 등 간단한 것들은 재귀로 표현하지 말고 for loop로 표현
+4. recursion is especially for  
+    branching processes like traversing trees or directories
+    divide and conquer algorithms like merge sort and binary search
+    // branching process : 가지치기 (트리 구조)
+    // divide and conquer : 분할 정복, type of greedy algorithm (퀵 소트, 힙 소트 등)

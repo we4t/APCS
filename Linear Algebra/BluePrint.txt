@@ -1,0 +1,18 @@
+CLASS HIERACHY
+
+-MATRIX : 덧셈, 뺄셈, 곱, 스칼라, GEBS, Rank, Null, Transpose,  equals, Cofactor Expansion
+	- Sqaure Matrix : 고유값, 고유벡터, Determinant, inverse, Ax = b, Trace
+		- In
+		- 표준행렬
+		- 3 X 3
+	- Vector : Norm, calTheta, projection, 내적
+		- Standard Basis
+
+
+
+
+
+the Blueprint of Gauss Elimination
+
+1. [0][0] -> [n][n] check
+2. 

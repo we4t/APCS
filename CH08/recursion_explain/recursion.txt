@@ -1,0 +1,23 @@
+software : algorithm + data structure
+
+data structure : stack, queue, arraylist, tree, hashset, ...
+
+recursion 확인해야 하는 것들
+
+1. the position of method call
+    call이 메소드 내부에서 언제 어디에 위치해있는지 확인해야함.
+    ex) termination condition보다 앞에 있으면 무한 루프
+2. termination condition
+    언제 재귀 호출을 멈출 것인지에 대한 것들
+3. stacking parts
+    재귀 호출을 하고 return 하고 나서 실행하는 부분들
+
+
+Stack : data Structure
+    FILO : First In Last Out
+    LIFO : Last In First Out
+
+Queue : data Structure
+    FIFO : First In First Out
+    LILO : Last In Last In
+

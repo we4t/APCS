@@ -1,0 +1,15 @@
+12
+2
+1 name : JungSeongWoo, age : 18, height : 170.200000, scores : 100.0, 95.0, 100.0, avg : 98.333336
+2 name : ByeonYoonYi, age : 18, height : 165.000000, scores : 97.0, 92.0, 93.0, avg : 94.000000
+3 name : BaeJinHyeong, age : 18, height : 176.000000, scores : 97.0, 97.0, 95.0, avg : 96.333336
+4 name : KimChaeWoon, age : 18, height : 172.000000, scores : 95.0, 0.0, 96.0, avg : 63.666668
+5 name : SeoHyeonUk, age : 18, height : 175.000000, scores : 94.0, 96.0, 100.0, avg : 96.666664
+6 name : KangHanByeol, age : 18, height : 180.000000, scores : 90.0, 95.0, 100.0, avg : 95.000000
+7 name : KimSeoYeon, age : 18, height : 163.000000, scores : 90.0, 94.0, 93.0, avg : 92.333336
+8 name : LeeSiJun, age : 18, height : 175.000000, scores : 90.0, 95.0, 96.0, avg : 93.666664
+9 name : ParkJooYeon, age : 18, height : 160.000000, scores : 85.0, 87.0, 95.0, avg : 89.000000
+10 name : SimSeongHa, age : 18, height : 182.000000, scores : 85.0, 95.0, 100.0, avg : 93.333336
+11 name : KimHyeonSeo, age : 18, height : 159.000000, scores : 79.0, 98.0, 95.0, avg : 90.666664
+12 name : LeeDaeYeon, age : 18, height : 163.000000, scores : 76.0, 84.0, 95.0, avg : 85.000000
+avg = 90.666664, standard deviation = 8.848519
